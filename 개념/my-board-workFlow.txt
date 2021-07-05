@@ -1,0 +1,22 @@
+게시판을 위한 환경설정
+1. react-router 라이브러리 설치
+    npm install --save react-router-dom
+
+2. query-string 라이브러리 설치
+    npm install --save query-string
+
+3. bootstrap 라이브러리 설치
+    npm install --save bootstrap
+    index.js 추가
+    
+
+4. reactstrap 라이브러리 설치
+    npm install --save reactstrap react react-dom
+
+5. 정의별 폴더 생성
+    src/components
+    src/pages
+    src/services
+
+6. Http 비동기 통신을 위한 axios 라이브러리 설치
+    npm install --save axios

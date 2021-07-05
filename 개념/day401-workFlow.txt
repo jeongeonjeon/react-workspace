@@ -1,0 +1,34 @@
+1. scss 사용환경 설정
+    npm install --save node-sass
+
+2. open color 설치
+    npm install --save open-color
+    @import '~open-color/open-color'
+
+3. bootstrap 설치 및 사용
+    1) npm install --save bootstrap
+    2) index.js 추가
+        import 'bootstrap/dist/css/bootstrap.min.css'
+
+4. reactstrap 설치
+    npm install --save reactstrap
+
+5. classname 설치
+    여러개의 클래스를 동적으로 적용하기 쉽게 만든 라이브러리
+    npm install --save classnames
+
+    ex) 동시에 "form-control", "done" css인자를 적용
+    className={["form-control",'done'].join(' ')}
+    className={classnames('form-control','done')}
+
+    import classNames from 'classnames/bind';
+-----------------------------------------------------------
+폴더관리
+    src/styles : index.js와 연동된 css, scss 파일
+    src/components : 함수기반 혹은 클래스 기반의 컴포넌트 파일, 해당 컴포넌트와 관련된 css파일들 
+        └ todoList
+            └ todoListComponent.js
+            └ todoListComponent.css, scss
+            
+
+

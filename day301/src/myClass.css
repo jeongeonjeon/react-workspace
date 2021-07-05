@@ -1,0 +1,6 @@
+.success {
+    border : 2px solid rgb(0, 124, 0);
+}
+.fail {
+    border : 2px solid rgb(228, 52, 52);
+}

@@ -1,0 +1,9 @@
+라우팅 설정
+1. react-router 라이브러리 설치
+    npm install --sae react-router-dom
+
+2. 폴더 생성
+    src/pages
+    src/components
+3. query-string 라이브러리 설치
+    npm install --save query-string
